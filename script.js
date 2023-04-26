@@ -11,3 +11,19 @@ input.addEventListener("keydown", (e) => {
         loadItens()
     }
 })
+
+function loadItens() {
+    ul.innerHTML = ""
+
+    itemList.forEach((item, i) => {
+        const li = document.createElement("li")
+
+        li.innerHTML = `
+        <div>
+        <span>${item}</span>
+            <button onclick="removeItem(${i})">x</button>
+        </div>`
+
+        ul.appendChild(li);
+    })
+}
