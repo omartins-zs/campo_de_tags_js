@@ -46,3 +46,16 @@ h2 {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+ul {
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    background-color: #EFEFEF;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px;
+    float: left;
+}
