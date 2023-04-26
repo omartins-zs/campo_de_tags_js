@@ -59,3 +59,15 @@ li {
     margin: 3px;
     float: left;
 }
+
+input {
+    outline: none;
+    border: none;
+    height: 30px;
+    margin-left: 5px;
+    background-color: #EFEFEF;
+    max-width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px;
+}
