@@ -27,3 +27,8 @@ function loadItens() {
         ul.appendChild(li);
     })
 }
+
+function removeItem(i) {
+    itemList.splice(i, 1)
+    loadItens();
+}
